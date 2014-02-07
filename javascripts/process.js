@@ -47,3 +47,21 @@ $(document).ready(function(){
     $('.js-depth-chart-container').append(html);
   }
 });
+
+$('.js-depth-chart-container').on( {
+    mouseenter: function () {
+      console.log("here");
+      var playerClass = $(this).data('playernameclass');
+      console.log(playerClass);
+      $('.' + playerClass).addClass('active-player');
+    },
+    mouseleave: function () {
+      var playerClass = $(this).data('playernameclass');
+      $('.' + playerClass).removeClass('active-player');
+    }
+}, '.js-player');
+
+Handlebars.registerHelper('replaceSpaces', function(text) {
+    text = text.replace(/\s/g, '-');
+    return new Handlebars.SafeString(text);
+});
