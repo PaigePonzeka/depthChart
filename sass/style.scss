@@ -1,0 +1,73 @@
+    @import "compass/reset";
+
+    .depth-chart {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .position {
+      position: absolute;
+
+      strong {
+        float: left;
+        font-weight: bold;
+      }
+
+      .position-players {
+        float: right;
+        margin-left: 10px;
+        padding: 5px 10px;
+        background: rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    .position-c {
+      left: 775px;
+      bottom: 50px;
+    }
+
+    .position-p {
+      left: 775px;
+      top: 350px;
+    }
+
+    .position-1B {
+      right: 300px;
+      top: 250px;
+    }  
+
+    .position-2B {
+      right: 600px;
+      top: 150px;
+    }
+
+    .position-3B {
+      left: 300px;
+      top: 300px;
+    }
+
+    .position-SS {
+      left: 550px;
+      top: 200px;
+    }
+
+  .position-RF {
+      right: 200px;
+      top: 60px;
+    }
+
+  .position-RC {
+      right: 500px;
+      top:  10px;
+    }
+
+  .position-LF {
+      left: 200px;
+      top: 60px;
+    }
+
+  .position-LC {
+      left: 500px;
+      top:  10px;
+    }

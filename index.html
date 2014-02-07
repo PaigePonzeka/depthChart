@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Depth Chart</title>
+  </head>
+<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+  <body>
+    <h1>Depth Chart</h1>
+
+    <!--<div class="js-roster-container">
+    </div>-->
+
+    <div class="js-depth-chart-container">
+    </div>
+
+
+    <!-- Templates -->
+    <script id="roster-template" type="text/x-handlebars-template">
+      <ul class="roster">
+        {{#each players}}
+          <li class="player"> 
+            <strong>{{name}}</strong>
+            <ul class="player-positions">
+            {{#each positions}}
+              <li>{{.}}</li>
+            {{/each}}
+            </ul>
+          </li>
+        {{/each}}
+      </ul>
+    </script>
+
+    <script id="depth-chart-template" type="text/x-handlebars-template">
+      <div class="depth-chart">
+        {{#each positions}}
+          <div class="position position-{{name}}"> 
+            <strong>{{name}}</strong>
+            <ul class="position-players">
+            {{#each players}}
+              <li>{{.}}</li>
+            {{/each}}
+            </ul>
+          </div>
+        {{/each}}
+        <div class="field-container">
+          <img src="./images/baseball-diamond.jpg" />
+        </div>
+      </div>
+    </script>
+    <!-- /Templates -->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./javascripts/handlebars.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./javascripts/roster.js"></script>
+    <script type="text/javascript" src="./javascripts/process.js"></script>
+  </body>
+</html>
