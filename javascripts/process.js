@@ -13,8 +13,10 @@ $(document).ready(function(){
   }
 
   function generateDepthChart() {
+     depthChart["bench"] = [];
     $.each(players.players, function(){
       var player = this;
+
       $.each(this.positions, function(){
         var currentPosition = '' + this;
         // intialize the position if it hasn't been intialized yet
@@ -24,6 +26,8 @@ $(document).ready(function(){
         depthChart[currentPosition].push(player.name); 
 
       });
+        depthChart["bench"].push(player.name); 
+
     });
       appendDepthChart();
   }

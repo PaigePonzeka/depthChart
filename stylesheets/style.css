@@ -88,60 +88,66 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 25, ../sass/style.scss */
+.position-bench {
+  bottom: 20px;
+  right: 10px;
+}
+
+/* line 30, ../sass/style.scss */
 .position-c {
   left: 775px;
   bottom: 50px;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .position-p {
   left: 775px;
   top: 350px;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .position-1B {
   right: 300px;
   top: 250px;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .position-2B {
   right: 600px;
   top: 150px;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .position-3B {
   left: 300px;
   top: 300px;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .position-SS {
   left: 550px;
   top: 200px;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .position-RF {
   right: 200px;
   top: 60px;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .position-RC {
   right: 500px;
   top: 10px;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .position-LF {
   left: 200px;
   top: 60px;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .position-LC {
   left: 500px;
   top: 10px;

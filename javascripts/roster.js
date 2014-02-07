@@ -15,4 +15,4 @@ var players = {players : [
   {name: "Emily Sperber", positions:["LC", "LF", "RC", "RF"]}
   ]};
 
-var positions = ["P", "C", "1B", "2B", "SS", "3B", "LF", "LC", "RC", "RF"];
+var positions = ["P", "C", "1B", "2B", "SS", "3B", "LF", "LC", "RC", "RF", "bench"];
